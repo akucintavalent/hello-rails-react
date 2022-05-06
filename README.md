@@ -36,6 +36,12 @@ Install gems:
 bundle install
 ```
 
+Install npm packages:
+
+```
+npm install
+```
+
 Setup database:
 
 ```
@@ -43,13 +49,21 @@ rails db:create
 rails db:migrate
 ```
 
+Fill database with mock data:
+
+```
+rails db:seed
+```
+
 ### Usage
 
 Start server:
 
 ```
-rails server
+rails s
 ```
+
+**_Please note that running the above command in VS Code's terminal can cause errors, so please use regular terminal._**
 
 Visit http://localhost:3000/ in your browser.
 
